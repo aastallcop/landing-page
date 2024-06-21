@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+img {
+  box-sizing: border-box;
+  border-radius: 8px;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+.small {
+  max-width: 50%;
+}
+
+.header,
+.footer,
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+.footer {
+  justify-content: space-around;
+  padding: 32px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  padding: 16px 100px 100px;
+
+  gap: 50px;
+}
+
+/* Hero main text */
+.maintext {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Hero secondary text & header link text */
+.secondary,
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* header Logo Text*/
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.picinfo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quotecontainer {
+  background-color: #e5e7eb;
+  padding-top: 100px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+}
