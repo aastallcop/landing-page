@@ -4,9 +4,8 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
-
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 ul {
@@ -27,14 +26,17 @@ button {
   border-radius: 8px;
   padding: 8px 20px;
 }
+
 img {
   box-sizing: border-box;
   border-radius: 8px;
   max-width: 100%;
+  height: auto;
   flex: 1 1 auto;
 }
 .small {
-  max-width: 50%;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 .header,
@@ -44,18 +46,21 @@ img {
   justify-content: space-between;
   background-color: #1f2937;
   color: #e5e7eb;
+  margin: 0;
+  padding: 0;
 }
 .footer {
-  justify-content: space-around;
   padding: 32px;
+  justify-content: space-around;
 }
+
 .column {
   display: flex;
   flex-direction: column;
 }
 .container {
   display: flex;
-  padding: 16px 100px 100px;
+  padding: 36px 100px 100px;
 
   gap: 50px;
 }
@@ -71,6 +76,8 @@ img {
 
 .center {
   text-align: center;
+  padding: 20px 100px 100px;
+  margin: 0 200px;
 }
 
 /* Hero secondary text & header link text */
@@ -78,6 +85,8 @@ img {
 .links {
   font-size: 18px;
   color: #e5e7eb;
+  margin: 0;
+  padding: 0;
 }
 
 /* header Logo Text*/
@@ -100,16 +109,32 @@ img {
   color: #1f2937;
   display: flex;
   flex-direction: column;
+
   align-items: flex-end;
 }
 
 .quotecontainer {
   background-color: #e5e7eb;
-  padding-top: 100px;
+  padding: 100px 290px 100px;
 }
 
 .author {
   font-weight: bold;
   font-size: 24px;
-  padding: 10px;
+}
+
+div.calltoaction {
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #fff;
+  margin: 100px 200px;
+  padding: 36px 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+button.calltoaction {
+  border: 5px soild red;
+  border-radius: 8px;
 }
